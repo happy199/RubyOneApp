@@ -1,3 +1,75 @@
-<h1>Bienvenue dans mon monde les enfants. Hahahaha</h1>
-<%= link_to 'RubyOneApp', controller: 'articles' %>
-ha
+<div id="home" class="py-5 bg-info" style="">
+  <div class="container">
+    <div class="row">
+      <div class="p-md-5 d-flex flex-column justify-content-center bg-light col-lg-8 p-3" style="">
+        <h3 class="display-4">Welcome to Happy Lab Companie</h3>
+        <h1 contenteditable="true" style="">Une startup naisssance spécialisé dans la programmation informartique pour des solutions utilisables pour plusieurs plateformes.</h1>
+      </div>
+      <div class="col-lg-4 p-3">
+        <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item"> <%= image_tag "8.jpg", :class=> "d-block w-100"%> </div>
+            <div class="carousel-item"> <%= image_tag "9.jpg", :class=> "d-block w-100"%> </div>
+            <div class="carousel-item active"> <%= image_tag "11.jpg", :class=> "d-block w-100"%> </div>
+            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="exp" class="&quot;py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 p-3">
+          <div class="card">
+            <div class="card-body p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-3.svg" width="150">
+              <h3 class="display-4">Reflexion</h3>
+              <h3>Jeune gens engager et réfléchissant continuellement aux nouvelles solutions pour ammélmiorer votre vie</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-3 col-md-6">
+          <div class="card">
+            <div class="card-body p-4 w-100"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-2.svg" width="150">
+              <h2><b style=""><i>Programmation</i></b></h2>
+              <h3>Experts dans la conception des solutions informatiques bien pour vous</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-3 col-md-6">
+          <div class="card">
+            <div class="card-body p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-1.svg" width="150">
+              <h3 class="display-4">Jeux Video</h3>
+              <h3>Vous propose toutes les catégories et marques de console derniers cris pour vous faire devenir un Gamer pro.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="nous" class="py-5 text-center text-white bg-light" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto col-md-12">
+          <h1 class="mb-3">Notre équipe<br></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 p-4"> <%= image_tag "4.jpg", :class=> "img-fluid d-block mb-3 mx-auto rounded-circle", :alt => "rss feed", width: 200%>
+          <h4>Abdou -Satar</h4>
+          <p class="mb-0">DG DE HAPPYLAB</p>
+        </div>
+        <div class="col-lg-4 col-md-6 p-4"> <%= image_tag "1.jpg", :class=> "img-fluid d-block mb-3 mx-auto rounded-circle", :alt => "Card image cap", width: 200%>
+          <h4>Happy TIDJANI</h4>
+          <p class="mb-0">PDG DE HAPPYLAB</p>
+        </div>
+        <div class="col-lg-4 p-4"> <%= image_tag "7.jpg", :class=> "img-fluid d-block mb-3 mx-auto rounded-circle", width: 200%>
+          <h4>Aziz</h4>
+          <p class="mb-0">CHEF TECHNIQUE DE HAPPYLAB</p>
+        </div>
+      </div>
+    </div>
+  </div>
