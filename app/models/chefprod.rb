@@ -1,0 +1,3 @@
+class Chefprod < ApplicationRecord
+
+end

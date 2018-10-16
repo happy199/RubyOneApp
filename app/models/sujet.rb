@@ -1,0 +1,3 @@
+class Sujet < ApplicationRecord
+
+end
