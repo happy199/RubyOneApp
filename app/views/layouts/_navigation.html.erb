@@ -11,7 +11,7 @@
         <li class="nav-item mx-2 text-dark text-uppercase"> <a class="nav-link" href="#nous">Nous</a> </li>
         <li class="nav-item mx-2 text-uppercase"> <a class="nav-link" href="#contact">Contacts </a> </li>
       </ul>
-      <a class="btn btn-default navbar-btn text-uppercase" href="sign.html">S'inscrire</a><a class="btn btn-default navbar-btn text-uppercase" href="login.html">Se connecter</a>
+      <%= link_to 'INSCRIPTION', controller: 'signin', :class=>"btn btn-default navbar-btn text-uppercase" %>  <%= link_to 'SE CONNECTER', controller: 'login', :class=>"btn btn-default navbar-btn text-uppercase" %>
     </div>
   </div>
 </nav>
