@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get '/login', to: 'login#index'
   get '/sign', to: 'signin#index'
+  post '/login', to: 'login#create'
+  delete '/login', to: 'login#destroy'
   #root 'article#index'
 end
 
